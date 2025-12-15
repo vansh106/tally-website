@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           
           {/* Brand Info */}
           <div>
@@ -26,28 +26,6 @@ export const Footer = () => {
               <a href="#" className="hover:text-brand-light transition-colors"><Linkedin className="w-5 h-5" /></a>
               <a href="#" className="hover:text-brand-light transition-colors"><Instagram className="w-5 h-5" /></a>
             </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-white font-semibold mb-4">Product</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Download</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Changelog</a></li>
-            </ul>
-          </div>
-
-          {/* Support */}
-          <div>
-            <h4 className="text-white font-semibold mb-4">Support</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Video Tutorials</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-            </ul>
           </div>
 
           {/* Contact */}
